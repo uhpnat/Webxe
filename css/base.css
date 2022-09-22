@@ -1,7 +1,17 @@
 :root{
     --mauChu : #979da0;
     --mauvang : #FF9933;
+    --maunhat : #c3c3c3;
+    --cam : #ff5400;
+    --do : #da3031;
+    --xanh : #3390bb;
 
+}
+li{
+list-style: none;
+}
+a{
+    text-decoration: none;
 }
 *{
     outline: none;
@@ -12,6 +22,13 @@ html{
     line-height: 1.6rem;
     font-family: 'Poppins', sans-serif;
     box-sizing: inherit;
+}
+.container--phu {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .container {
     width: 100%;
@@ -96,3 +113,4 @@ html{
     flex-wrap: wrap;
 
 }
+/* foooterrrrrrrrrrrrrrrr */

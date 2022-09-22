@@ -281,4 +281,79 @@ header > ul {
 }
 
 /* slidephan3 ne  */
-/* cart  */
+.footer{
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.ftcontact{
+  color: white;
+  font-size: xx-large;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: block;
+  height: 500px;
+  width: 400px;
+  padding: 40px;
+  
+
+}
+.ftcontact h2{
+font-size: 20px;
+padding: 30px 0px;
+}
+.ftcontact p{
+  font-size: 14px;
+  line-height: 24px;
+}
+.ftitem span{
+  font-size: 14px;
+  color: var(--maunhat);
+}
+.ftitem p{
+  font-size: 16px;
+
+}
+.ftitem>ul{
+  display: flex;
+}
+.ftitem>ul>li{
+  margin: 20px 12px 12px 0px;
+}
+.ftitem>ul>li>a{
+  color: white;
+  /* background-color: #e84118; */
+  padding: 8px;
+  border-radius: 5px;
+  margin-right: 12px;
+  display: block;
+  margin-top: 3px;
+
+}
+.ftitem>ul>li>a>ion-icon{
+font-size: 28px;
+}
+.cam{
+background-color: var(--cam)
+}
+.do{
+  background-color: var(--do)
+}
+.xanh{
+  background-color: var(--xanh)
+}
+.footer>.container--phu>ul{
+  display: flex;
+  justify-content: space-between;
+}
+/* ft right */
+.ftright{
+  flex: 1;
+}
+.ftright>ul{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: 30px;
+}
+.item-1>a{
+  color: white;
+}
