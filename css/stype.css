@@ -282,8 +282,9 @@ header > ul {
 
 /* slidephan3 ne  */
 .footer{
-  height: 500px;
+  height: 90vh;
   background-color: rgba(0, 0, 0, 0.7);
+  /* height: 70vh; */
 }
 .ftcontact{
   color: white;
