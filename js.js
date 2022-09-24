@@ -1,5 +1,5 @@
-$('.search-button').click(function(){
-    $(this).parent().toggleClass('open');
-  });
+// $('.search-button').click(function(){
+//     $(this).parent().toggleClass('open');
+//   });
 
   
