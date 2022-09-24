@@ -1,7 +1,7 @@
 body {
   background-image: url(../img/anh1.jpg);
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
 }
 * {
   padding: 0px;
@@ -500,4 +500,76 @@ header > ul {
 .btn-newlambo>a:hover{
   background-color: #202020;
   color: white;
+}
+/*  */
+/* 
+
+*/
+.footerend>ul{
+  color: white;
+
+}
+.footerend>ul>h1{
+  padding: 30px 0px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.p40{
+  padding: 40px 0px;
+  padding-left: 50px;
+}
+.footerend>ul>li{
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.ftinput>form>input{
+  height: 50px;
+  width: 356px;
+  border: none;
+  border-radius: 10px;
+  box-sizing: none;
+  text-decoration: none;
+  color: black;
+  transition: all 0.2s;
+  font-size: 14px;
+  padding: 18px 80px 18px 25px;
+  
+}
+.ftbtn{
+  display: inline-block;
+  width: 60px;
+  height: 40px;
+  background-color: #e84118;
+  position: absolute;
+  top: 4.5px;
+    left: 291px;
+  border-radius: 10px;
+}
+.ftinput>form{
+  position: relative;
+}
+.ftinput ion-icon{
+  color: white;
+  font-size: 25px;
+  padding-left: 17px;
+    padding-top: 8px;
+}
+.ftnganhang{
+  width: 750px;
+  height: 165px;
+  background-color: rgba(0, 0, 0, 0.7);
+margin-left: 40px;
+border-radius: 5px;
+}
+.nganhang-item>div>p{
+  font-size: 15px;
+  color:white;  
+  padding: 60px 40px;
+}
+.nganhang-item>div>img{
+  padding: 60px 40px;
+  
+}
+.backgne{
+  background-color: rgba(0, 0, 0, 0.7);
 }
