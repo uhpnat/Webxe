@@ -1,7 +1,8 @@
 body {
-  background-image: url(../img/anh1.jpg);
+  background-image: url(../img/backkk.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
 }
 * {
   padding: 0px;
@@ -198,8 +199,7 @@ header > ul {
   background-color: #00000050;
   border-radius: 5px 5px 0 0;
   line-height: 50px;
-  /* padding: 0px 15px;
-  margin: 0px 5px; */
+
 }
 /* csss phan chu headẻ */
 .chuimg {
@@ -210,6 +210,7 @@ header > ul {
   height: 80vh;
 }
 .chuto {
+  text-shadow: 5px 5px 5px black;
   font-size: 110px;
   line-height: 120px;
 }
@@ -397,6 +398,7 @@ header > ul {
   border-radius: 5px 5px 0px 0px;
   opacity: 0.8;
   transition: 0.2s;
+  /* border-bottom: 3px solid black; */
 }
 .xelambo > span {
   font-size: 12px;
@@ -572,4 +574,31 @@ border-radius: 5px;
 }
 .backgne{
   background-color: rgba(0, 0, 0, 0.7);
+}
+/* quang cao cuoi cung */
+.quangcao-lambo{
+  padding: 50px 0px;
+  background-color: white;
+}
+.quangcao-lambo h1{
+  /* padding: 86px 0px ; */
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  padding: 20px 0px;
+}
+.quangcao-lambo time{
+  font-size: 18px;
+  color: #868686;
+}
+.pdquangcao{
+  padding-left: 40px;
+}
+.quangcao-lambo .row{
+padding-top: 30px;
+}
+/* btnnnn */
+/* fixxxxx */
+.header-home > li > a{
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
