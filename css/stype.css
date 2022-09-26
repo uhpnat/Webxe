@@ -602,3 +602,86 @@ padding-top: 30px;
 .header-home > li > a{
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
+/* hoverr mau vang */
+.hovervang:hover{
+  color: var(--mauvang) !important;
+
+
+} 
+.hovervang{
+  transition: 0.5s;
+  
+}
+/* trang 2  */
+
+.nav{
+  background-color: white;
+  height: 1000vh;
+}
+.fs14{
+  font-size: 14px;
+  }
+.fs16{
+font-size: 16px;
+}
+.fs18{
+  font-size: 18px;
+  
+}
+.fs20{
+font-size: 20px;
+  
+}
+.pd20{
+  padding: 20px 0px;
+}
+.pdl50px{
+  padding-left: 100px;
+}
+.pdr50px{
+  padding-right: 100px;
+}
+.nav h2 {
+  color: #202020;
+  font-size: 34px;
+  font-weight: 500;
+  padding: 30px 0px;
+}
+.nav h1{
+  font-size: 76px;
+  color: #202020;
+  font-weight: 700;
+  padding-bottom: 20px;
+  line-height: 75px;
+}
+.nav time{
+  color: #202020;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 30px 0px;
+}
+.nav h4 {
+  font-size: 16px;
+  color: #202020;
+  padding: 30px 0px;  
+  font-weight: 300;
+  line-height: 24px;
+}
+.nav h3{
+  font-size: 34px;
+  color: #202020;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: left;
+}
+.cangiuaaa{
+  align-items: center;
+}
+.cangiuaaa img{
+  width: 100%;
+  border-radius: 1px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.459);
+}
+.padding-row{
+  padding: 50px 0px;
+}
