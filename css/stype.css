@@ -3,7 +3,9 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  /* transition: 2s; */
 }
+
 * {
   padding: 0px;
   margin: 0px;
@@ -199,8 +201,9 @@ header > ul {
   background-color: #00000050;
   border-radius: 5px 5px 0 0;
   line-height: 50px;
-
+  cursor: pointer;
 }
+
 /* csss phan chu headẻ */
 .chuimg {
   margin: 50px 100px;
@@ -213,6 +216,13 @@ header > ul {
   text-shadow: 5px 5px 5px black;
   font-size: 110px;
   line-height: 120px;
+  transition: 2 0s;
+  cursor: default;
+  animation: alternate;
+  transition: 40s;
+}
+.chuto:hover {
+  font-size: 130px;
 }
 .chunho {
   margin: 20px 5px;
@@ -487,9 +497,8 @@ header > ul {
 /* btn newlambo  */
 .btn-newlambo {
   display: inline-flex;
-  
+
   text-align: center;
-  
 }
 .btn-newlambo > a {
   padding: 20px 20px;
@@ -499,7 +508,7 @@ header > ul {
   border-radius: 5px;
   border: 1px solid;
 }
-.btn-newlambo>a:hover{
+.btn-newlambo > a:hover {
   background-color: #202020;
   color: white;
 }
@@ -507,24 +516,23 @@ header > ul {
 /* 
 
 */
-.footerend>ul{
+.footerend > ul {
   color: white;
-
 }
-.footerend>ul>h1{
+.footerend > ul > h1 {
   padding: 30px 0px;
   font-size: 20px;
   font-weight: 700;
 }
-.p40{
+.p40 {
   padding: 40px 0px;
   padding-left: 50px;
 }
-.footerend>ul>li{
+.footerend > ul > li {
   font-size: 14px;
   margin-bottom: 20px;
 }
-.ftinput>form>input{
+.ftinput > form > input {
   height: 50px;
   width: 356px;
   border: none;
@@ -535,110 +543,104 @@ header > ul {
   transition: all 0.2s;
   font-size: 14px;
   padding: 18px 80px 18px 25px;
-  
 }
-.ftbtn{
+.ftbtn {
   display: inline-block;
   width: 60px;
   height: 40px;
   background-color: #e84118;
   position: absolute;
   top: 4.5px;
-    left: 291px;
+  left: 291px;
   border-radius: 10px;
 }
-.ftinput>form{
+.ftinput > form {
   position: relative;
 }
-.ftinput ion-icon{
+.ftinput ion-icon {
   color: white;
   font-size: 25px;
   padding-left: 17px;
-    padding-top: 8px;
+  padding-top: 8px;
 }
-.ftnganhang{
+.ftnganhang {
   width: 750px;
   height: 165px;
   background-color: rgba(0, 0, 0, 0.7);
-margin-left: 40px;
-border-radius: 5px;
+  margin-left: 40px;
+  border-radius: 5px;
 }
-.nganhang-item>div>p{
+.nganhang-item > div > p {
   font-size: 15px;
-  color:white;  
+  color: white;
   padding: 60px 40px;
 }
-.nganhang-item>div>img{
+.nganhang-item > div > img {
   padding: 60px 40px;
-  
 }
-.backgne{
+.backgne {
   background-color: rgba(0, 0, 0, 0.7);
 }
 /* quang cao cuoi cung */
-.quangcao-lambo{
+.quangcao-lambo {
   padding: 50px 0px;
   background-color: white;
 }
-.quangcao-lambo h1{
+.quangcao-lambo h1 {
   /* padding: 86px 0px ; */
   font-size: 30px;
   font-weight: 700;
   line-height: 40px;
   padding: 20px 0px;
 }
-.quangcao-lambo time{
+.quangcao-lambo time {
   font-size: 18px;
   color: #868686;
 }
-.pdquangcao{
+.pdquangcao {
   padding-left: 40px;
 }
-.quangcao-lambo .row{
-padding-top: 30px;
+.quangcao-lambo .row {
+  padding-top: 30px;
 }
 /* btnnnn */
 /* fixxxxx */
-.header-home > li > a{
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+.header-home > li > a {
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  font-size: 17px;
 }
 /* hoverr mau vang */
-.hovervang:hover{
+.hovervang:hover {
   color: var(--mauvang) !important;
-
-
-} 
-.hovervang{
+}
+.hovervang {
   transition: 0.5s;
-  
 }
 /* trang 2  */
 
-.nav{
+.nav {
   background-color: white;
-  height: 1000vh;
+  /* height: 1vh; */
 }
-.fs14{
+.fs14 {
   font-size: 14px;
-  }
-.fs16{
-font-size: 16px;
 }
-.fs18{
+.fs16 {
+  font-size: 16px;
+}
+.fs18 {
   font-size: 18px;
-  
 }
-.fs20{
-font-size: 20px;
-  
+.fs20 {
+  font-size: 20px;
 }
-.pd20{
+.pd20 {
   padding: 20px 0px;
 }
-.pdl50px{
+.pdl50px {
   padding-left: 100px;
 }
-.pdr50px{
+.pdr50px {
   padding-right: 100px;
 }
 .nav h2 {
@@ -647,14 +649,14 @@ font-size: 20px;
   font-weight: 500;
   padding: 30px 0px;
 }
-.nav h1{
+.nav h1 {
   font-size: 76px;
   color: #202020;
   font-weight: 700;
   padding-bottom: 20px;
   line-height: 75px;
 }
-.nav time{
+.nav time {
   color: #202020;
   font-size: 18px;
   font-weight: 300;
@@ -663,25 +665,25 @@ font-size: 20px;
 .nav h4 {
   font-size: 16px;
   color: #202020;
-  padding: 30px 0px;  
+  padding: 30px 0px;
   font-weight: 300;
   line-height: 24px;
 }
-.nav h3{
+.nav h3 {
   font-size: 34px;
   color: #202020;
   font-weight: 700;
   line-height: 34px;
   text-align: left;
 }
-.cangiuaaa{
+.cangiuaaa {
   align-items: center;
 }
-.cangiuaaa img{
+.cangiuaaa img {
   width: 100%;
   border-radius: 1px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.459);
 }
-.padding-row{
+.padding-row {
   padding: 50px 0px;
 }

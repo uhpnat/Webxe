@@ -1,0 +1,10 @@
+.fider{
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+    border-radius: 0;
+    animation: 1000ms ease-in-out 0s normal none 1 running fadeInDown;
+    z-index: 1;
+}
