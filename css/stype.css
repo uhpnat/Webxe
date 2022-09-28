@@ -219,7 +219,7 @@ header > ul {
   transition: 2 0s;
   cursor: default;
   animation: alternate;
-  transition: 40s;
+  transition: 25s;
 }
 .chuto:hover {
   font-size: 130px;
@@ -686,4 +686,7 @@ header > ul {
 }
 .padding-row {
   padding: 50px 0px;
+}
+.hoverimgne:hover {
+  width: 150px;
 }
