@@ -210,7 +210,7 @@ header > ul {
   display: inline-block;
   width: 1200px;
   color: white;
-  height: 80vh;
+  height: 70vh;
 }
 .chuto {
   text-shadow: 5px 5px 5px black;
@@ -687,6 +687,15 @@ header > ul {
 .padding-row {
   padding: 50px 0px;
 }
-.hoverimgne:hover {
-  width: 150px;
+.imgquay{
+  /* transform: rotateY(0); */
+    transition: .5s ease-in-out;
+    width: 100px;
+}
+.hoverquay{
+  overflow: hidden;
+}
+.hoverquay:hover .imgquay {
+  /* transform: rotateY(18); */
+  width: 130px;
 }
