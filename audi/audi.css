@@ -22,7 +22,7 @@
   .list-header-1>li>a{
     font-size: 16px;
     color: rgba(0, 0, 0, 0.73);
-    padding: 20px;
+    padding: 21px;
   }
 .slide>img{
   background-repeat: none;
@@ -158,4 +158,11 @@ padding: 80px 0px;
 .phan2-audi img:hover{
   width: 100%;
   border-radius:20px ;
+}
+.list-header-1 a{
+  transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.list-header-1 a:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgb(255, 157, 0);
 }
