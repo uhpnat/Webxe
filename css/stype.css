@@ -689,7 +689,7 @@ header > ul {
 }
 .imgquay{
   /* transform: rotateY(0); */
-    transition: .5s ease-in-out;
+    transition: .3s ease-in-out;
     width: 100px;
 }
 .hoverquay{
@@ -698,4 +698,27 @@ header > ul {
 .hoverquay:hover .imgquay {
   /* transform: rotateY(18); */
   width: 130px;
+}
+.header-3{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+}
+.header-3 li {
+  float: left;
+  margin-top: 25px;
+  height: 50px;
+
+}
+.header-3 a{
+  
+  color: white  ;
+  font-size: 18px;
+  padding: 20px;
+}
+.hd-3--left{
+  margin-left: 70px;
+}
+.chutrong-3{
+  
 }
