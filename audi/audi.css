@@ -85,6 +85,8 @@
   margin: 100px 0 0 0;
 }
 .phan2-audi img{
+  transition: 0.8s;
+
   border-radius: 1px;
   width: 500px;
   /* padding: ; */
@@ -145,4 +147,15 @@ padding: 80px 0px;
 }
 .iconfooter{
   margin: 100px;
+}
+/* hover */
+.btn-slide>a:hover{
+  background-color: rgba(0, 0, 0, 0.529);
+}
+.btn-1:hover{
+  background-color: rgba(0, 0, 0, 0.804);
+}
+.phan2-audi img:hover{
+  width: 100%;
+  border-radius:20px ;
 }
